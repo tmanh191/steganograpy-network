@@ -17,3 +17,5 @@ Cách 2: Dùng wget và giải nén thủ công
 Bước 3: Chạy bài Lab
 --------------------------------------------------
 labtainer -r
+--------------------------------------------------
+Hướng dẫn thực hành nằm trong thư mục docs của mỗi bài
