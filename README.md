@@ -1,17 +1,1 @@
-Vào terninal
-cd ~/labtainer/labtainer-student
-
-Chạy lệnh
-
-imodule https://github.com/tmanh191/steganograpy-network/raw/main/imodule.tar
-hoặc
-
-wget https://github.com/tmanh191/steganograpy-network/raw/main/imodule.tar
-tar -xvf imodule.tar
-cp -r mmo_network_steg/ detect_mmo_stegano/ detect_lostpacket_stegano/ lp_network_steg/ ~/labtainer/trunk/labs/
-
-Chạy bài theo yêu cầu:
-labtainer -r 
-
-
-Hướng dẫn thực hành nằm trong thư mục docs của mỗi bài lab.
+<pre><code>## Cài đặt module từ GitHub và chạy Lab ### Bước 1: Truy cập thư mục Labtainer Student ```bash cd ~/labtainer/labtainer-student ``` ### Bước 2: Tải file `imodule.tar` từ GitHub Bạn có thể dùng 1 trong 2 lệnh sau: ```bash imodule https://github.com/tmanh191/steganograpy-network/raw/main/imodule.tar ``` **Hoặc:** ```bash wget https://github.com/tmanh191/steganograpy-network/raw/main/imodule.tar tar -xvf imodule.tar cp -r mmo_network_steg/ detect_mmo_stegano/ detect_lostpacket_stegano/ lp_network_steg/ ~/labtainer/trunk/labs/ ``` ### Bước 3: Chạy bài Lab ```bash labtainer -r ``` </code></pre>
